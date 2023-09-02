@@ -20,7 +20,7 @@ df=( spark.\
              encoding='UTF-8',
              ignoreLeadingWhiteSpace='True',
              ignoreTrailingWhiteSpace='True')\
-     .parquet('abfss://0b3da212-4fe1-4e3e-bcc3-ebbe0aaf84b3@onelake.dfs.fabric.microsoft.com/08c0f6c4-d3ae-4898-92f7-1021ecf9ff33/Files/raw/data/address')
+     .parquet('abfss://Files/raw/data/address')
     )
 
 
