@@ -17,7 +17,7 @@ SalesLT	SalesOrderHeader
 
 **ADF_Pipeline details:** 
       Raw data was selected from Azure SQL Database, SalesLT Schema
-      Pipeline was built using lookup and ForEach and loaded the data into Fabric Lakehouse (Due to permissions issues, utilized ADF from regular services rather than Fabric ADF and manually uploaded files in Fabric Lakehouse)
+      Pipeline was built using lookup activity and ForEach activity and loaded the data into Fabric Lakehouse (Due to permissions issues, utilized ADF from regular services rather than Fabric ADF and manually uploaded files in Fabric Lakehouse)
 Pipeline repo: https://github.com/vinaykm5758/Azure_Microsoft_Fabric_Data_Engineering_Project/tree/adf_pipeline
       
 **Transformation from Raw to Conformed to Purpose Built details:**
