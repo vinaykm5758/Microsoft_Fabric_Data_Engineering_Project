@@ -1,21 +1,21 @@
 # Azure_Microsoft_Fabric_Data_Engineering_Project
 This repo contains details about a data engineering project leveraged using Microsoft Fabric
 
-**Source Details: **
+**Source Details:**
       Deployed Sample SalesLT tables inside Azure SQL data warehouse, Utilized ADF to extract the multiple tables using lookup and for each to load the data into ADLS Gen2 storage
       
 **Table Names:**
 
-SalesLT	Address
-SalesLT	Customer
-SalesLT	CustomerAddress
-SalesLT	Product
-SalesLT	ProductCategory
-SalesLT	ProductDescription
-SalesLT	ProductModel
-SalesLT	ProductModelProductDescription
-SalesLT	SalesOrderDetail
-SalesLT	SalesOrderHeader
+      1.SalesLT.Address
+      2.SalesLT.Customer
+      3.SalesLT.CustomerAddress
+      4.SalesLT.Product
+      5.SalesLT.ProductCategory
+      6.SalesLT.ProductDescription
+      7.SalesLT.ProductModel
+      8.SalesLT.ProductModelProductDescription
+      9.SalesLT.SalesOrderDetail
+     10.SalesLT.SalesOrderHeader
 
 **ADF_Pipeline details:** 
       Raw data was selected from Azure SQL Database, SalesLT Schema
