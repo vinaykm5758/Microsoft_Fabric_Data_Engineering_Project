@@ -1,6 +1,9 @@
 # Azure_Microsoft_Fabric_Data_Engineering_Project
 This repo contains details about a data engineering project leveraged using Microsoft Fabric
 
+**Description:**
+      Utilized sample SalesLT tables, loaded the data from SQL datawarehouse into ADLS GEN2 storage by ADF, due to permission/access issues, manually uploaded into Fabric Lakehouse storage into the raw folder, utilized Fabric Notebook to perform transformations from raw to Conformed to Purpose Built storage buckets, manually created Fabric tables using Gold layer files, then created sample PowerBI report on the top of the gold layer. Thanks
+      
 **Source Details:**
       Deployed Sample SalesLT tables inside Azure SQL data warehouse, Utilized ADF to extract the multiple tables using lookup and for each to load the data into ADLS Gen2 storage
       
