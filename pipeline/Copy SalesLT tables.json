@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Copy SalesLT tables",
 	"properties": {
 		"activities": [
 			{
