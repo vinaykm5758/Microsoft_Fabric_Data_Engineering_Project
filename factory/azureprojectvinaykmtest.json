@@ -1,0 +1,9 @@
+{
+	"name": "azureprojectvinaykmtest",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6bcb9da7-bbf1-4d4a-a881-1d7ca905cb7a",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
